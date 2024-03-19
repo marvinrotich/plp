@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvin Rotich - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2;
+            padding: 2;
+        }
+        
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .introduction {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin: 20px;
+        }
+        
+        .skills {
+            background-color: #ccc;
+            padding: 20px;
+            margin: 20px;
+        }
+        
+        .skills ul {
+            list-style-type: none;
+            padding: 1;
+        }
+        
+        .skills li {
+            border: 1px solid #999;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .contact {
+            background-color: #666;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .introduction, .skills, .contact {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Marvin Rotich</h1>
+    </header>
+
+    <section class="introduction">
+        <h2>Introduction</h2>
+        <p>Hello, I'm Marvin Rotich. I'm a web developer passionate about creating responsive and user-friendly websites.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:rotichmarvinn@outlook.com">rotichmarvinn@outlook.com</a></p>
+        <p>Social Media:
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </p>
+    </section>
+</body>
+</html>
